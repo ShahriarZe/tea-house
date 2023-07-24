@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="coffee">
+<html lang="en" data-theme="valentine">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,7 +46,7 @@
     ></script>
   </head>
   <body class="font-manrope">
-    <header class="container mx-auto">
+    <header class="container mx-auto lg:border-2 border-gray-300 mt-10">
       <div class="hero">
         <div class="hero-content flex-col-reverse lg:flex-row">
           <div>
@@ -228,7 +228,6 @@
           </div>
         </div>
         <div class="relative">
-          
           <!-- Next Review -->
 
           <div class="relative opacity-30 z-10 mb-16 p-8 rounded-lg bg-white">
@@ -289,8 +288,98 @@
           </div>
         </div>
       </section>
+
+      <section class="m-24">
+        <div class="text-center space-y-5">
+          <h2 class="text-5xl font-extrabold">News & Events</h2>
+          <p class="lg: max-w-3xl m-auto">
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10">
+          <div class="card bg-base-100 shadow-xl text-left">
+            <figure><img src="./images/news-1.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p>Feb 05, 2027</p>
+              <h2 class="card-title">Collecting 8 points for discount!</h2>
+              <p>
+                Donating 5% to the orphans of the purchased tea for per customer
+              </p>
+              <p class="font-black">Learn More</p>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl text-left">
+            <figure><img src="./images/news-2.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p>Feb 05, 2027</p>
+              <h2 class="card-title">Collecting 8 points for discount!</h2>
+              <p>
+                Donating 5% to the orphans of the purchased tea for per customer
+              </p>
+              <p class="font-black">Learn More</p>
+            </div>
+          </div>
+          <div class="card bg-base-100 shadow-xl text-left">
+            <figure><img src="./images/news-3.png" alt="Shoes" /></figure>
+            <div class="card-body">
+              <p>Feb 05, 2027</p>
+              <h2 class="card-title">Collecting 8 points for discount!</h2>
+              <p>
+                Donating 5% to the orphans of the purchased tea for per customer
+              </p>
+              <p class="font-black">Learn More</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <footer class="footer p-10 bg-red-100 text-center text-base-content">
+        <div>
+          <span class="footer-title">Services</span>
+          <a class="link link-hover">Branding</a>
+          <a class="link link-hover">Design</a>
+          <a class="link link-hover">Marketing</a>
+          <a class="link link-hover">Advertisement</a>
+        </div>
+        <div>
+          <span class="footer-title">Company</span>
+          <a class="link link-hover">About us</a>
+          <a class="link link-hover">Contact</a>
+          <a class="link link-hover">Jobs</a>
+          <a class="link link-hover">Press kit</a>
+        </div>
+        <div>
+          <span class="footer-title">Legal</span>
+          <a class="link link-hover">Terms of use</a>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Cookie policy</a>
+        </div>
+        <div>
+          <span class="footer-title">Newsletter</span>
+          <div class="form-control w-80">
+            <label class="label">
+              <span class="label-text">Enter your Feedback</span>
+            </label>
+            <div class="relative">
+              <input
+                type="text"
+                placeholder="feedback@site.com"
+                class="py-4 bg-transparent border-b-2 border-gray-500"
+              />
+              <button
+                class="btn text-white bg-gradient-to-r border-0 from-orange-400 to-orange-500 absolute top-0 rounded-full"
+              >
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </footer>
   </body>
 </html>
